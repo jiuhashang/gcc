@@ -4,10 +4,6 @@ import router from './router'
 import './assets/css/global.css'
 import './assets/css/font.css'
 import 'lib-flexible/flexible.js'
-// import axios from 'axios'
-
-// import glComponents from '../src/utils/global-components' // 引入全局组件
-// Vue.use(glComponents) // 注册全局组件
 
 
 Vue.filter('money', function(val) {
@@ -31,8 +27,8 @@ Vue.filter('money', function(val) {
 Vue.use(VueRouter)
 
 Vue.prototype.$http = axios
-// axios.defaults.baseURL = 'http://10.11.32.66:7700'
-axios.defaults.baseURL = 'http://119.45.162.104/guangchuchong-api'
+axios.defaults.baseURL = 'http://10.11.32.66:7700'
+// axios.defaults.baseURL = 'http://119.45.162.104/guangchuchong-api'
 
 Vue.config.productionTip = false
 

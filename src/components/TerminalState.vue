@@ -78,7 +78,8 @@ export default {
     width: 100%;
     color: #fff;
     .content {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 1.45rem;
       background: url('~@/assets/images/right_01.png') no-repeat;
       background-size: 100% 100%;

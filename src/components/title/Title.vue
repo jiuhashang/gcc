@@ -18,8 +18,10 @@ export default {
 
 <style lang="scss" scoped>
   .home {
-    width: 6.8375rem;
-    height: .35rem;
+    // width: 6.8375rem;
+    width: 100%;
+    height: 100%;
+    // height: .35rem;
     line-height: .35rem;
     margin-bottom: .125rem;
     background: url('~@/assets/images/title_bgc.png') no-repeat center center;

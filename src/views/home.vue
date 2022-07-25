@@ -136,6 +136,7 @@ export default {
         }
       }
       .right {
+        // width: 100%;
         flex: 3;
         .right-top-center {
           margin: .275rem 0;

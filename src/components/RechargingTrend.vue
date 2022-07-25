@@ -62,7 +62,7 @@ export default {
           },
           formatter: val => {
             let tip = ''
-              tip += val[0].axisValue + '<br />' + val[0].value + ' （kwh）'
+              tip += val[0].axisValue + '<br />' + val[0].value.toFixed(2) + ' （kwh）'
             return tip
           },
           textStyle: {
@@ -98,7 +98,7 @@ export default {
         grid: {
           left: '4%',
           top: '10%',
-          right: '4%',
+          right: '3%',
           bottom: '2%',
           containLabel: true
         },
@@ -163,7 +163,8 @@ export default {
 <style lang="scss" scoped>
   .home {
     .bottom {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 3.0625rem;
       background: url('~@/assets/images/right_03.png') no-repeat;
       background-size: 100% 100%;

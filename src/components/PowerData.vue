@@ -36,7 +36,8 @@ export default {
   .home {
     width: 100%;
     .bottom {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 1.4375rem;
       background: url('~@/assets/images/left_01.png') no-repeat;
       background-size: 100% 100%;

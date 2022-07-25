@@ -50,8 +50,8 @@ export default {
             }
           },
           clockwise: true,
-          radius: '98%',
-          center: ['51%', '59%'],
+          radius: '97%',
+          center: ['51%', '58%'],
           axisLine: {
             show: true,
             roundCap: false,
@@ -122,7 +122,8 @@ export default {
   .home {
     width: 100%;
     .content {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 2.0125rem;
       color: #fff;
       background: url('~@/assets/images/left_03.png') no-repeat;

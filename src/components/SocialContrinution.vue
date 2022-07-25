@@ -30,7 +30,8 @@ export default {
     // width: 100%;
     color: #fff;
     .content {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 2.6875rem;
       background: url('~@/assets/images/right_04.png') no-repeat;
       background-size: 100% 100%;
@@ -41,7 +42,7 @@ export default {
         text-align: center;
         width: 1.7125rem;
         height: 1.275rem;
-        // background-size: 100% 100%;
+        background-size: 100% 100%;
         .top {
           margin-top: 1rem;
           span {

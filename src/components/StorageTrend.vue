@@ -25,8 +25,8 @@ export default {
       grid: {
         left: '3%',
         top: '10%',
-        right: '5%',
-        bottom: '4%',
+        right: '3%',
+        bottom: '3%',
         containLabel: true
       },
       xAxis: {
@@ -83,7 +83,8 @@ export default {
   .home {
     width: 100%;
     .bottom {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 2.95rem;
       background: url('~@/assets/images/left_04.png') no-repeat;
       background-size: 100% 100%;

@@ -65,13 +65,14 @@ export default {
 
 <style lang="scss" scoped>
   .home {
+    font-size: .175rem;
     .content {
-      width: 6.8375rem;
+      // width: 6.8375rem;
+      width: 100%;
       height: 1.8875rem;
       color: #fff;
       background: url('~@/assets/images/right_02.png') no-repeat;
       background-size: 100% 100%;
-      font-size: .175rem;
       position: relative;
       .left {
         .left-top {
@@ -90,9 +91,6 @@ export default {
         position: absolute;
         top: 31%;
         left: 42%;
-        &:first-child {
-          font-size: .175rem;
-        }
       }
       .right {
         .right-top {
